@@ -63,6 +63,15 @@
     </h2>
 
   
+    <p>
+        <?php
+            $choose_word = $_GET['word'];
+            $text_Mod = str_replace($choose_word, "***", $discorso_Martin_Luther_King);
+            echo $text_Mod;
+        ?>
+    </p>
+
+  
 
    
 
